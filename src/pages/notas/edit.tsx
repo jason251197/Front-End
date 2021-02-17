@@ -1,12 +1,10 @@
 import {useHistory, useParams} from "react-router-dom";
 import React, {useEffect, useState} from "react";
-import {ICreateNote, INotas} from "../../interfaces/INotas";
+import {ICreateNote} from "../../interfaces/INotas";
 import {
     actualizarNotaAPI,
-    AllNotesAPI,
     getAllStudentAndCycles,
     getNoteById,
-    RegistrarNotaAPI
 } from "../../helpers/notas";
 import {toast} from "react-toastify";
 import Layout from "../../components/Layout";
